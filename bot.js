@@ -10,11 +10,7 @@ client.on('message', message => {
     	message.reply('pong');
   	}
 });
-bot.on('message',msg=>{
-    if(msg.content === "Hello"){
-        msg.reply('Hello Friend');
-    }
-})
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
