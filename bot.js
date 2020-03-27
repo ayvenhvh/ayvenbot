@@ -6,8 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === '=vlastnik') {
+    	message.reply('Můj vlastník je Ayven, neboli Patrik Bialý.');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '=stfu') {
+    	message.reply('Měli by jste být zticha, moderátoři už jsou naštvaný.');
   	}
 });
 
