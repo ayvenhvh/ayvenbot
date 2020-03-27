@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '=stfu') {
-    	message('Měli by jste být zticha, moderátoři už jsou naštvaný.');
+    	message.('Měli by jste být zticha, moderátoři už jsou naštvaný.');
   	}
 });
 
